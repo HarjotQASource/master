@@ -6,17 +6,17 @@ package com.clone;
  */
 public class Subject {
 
-	private String name;
+	private String name1;
 
 	public String getName() {
-		return name;
+		return name1;
 	}
 
 	public void setName(String s) {
-		name = s;
+		name1 = s;
 	}
 
 	public Subject(String s) {
-		name = s;
+		name1 = s;
 	}
 }
