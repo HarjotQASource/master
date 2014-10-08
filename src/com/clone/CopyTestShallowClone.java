@@ -1,5 +1,9 @@
 package com.clone;
-
+/**
+ * 
+ * @author hasingh
+ *
+ */
 public class CopyTestShallowClone {
 
 	public static void main(String[] args) {
