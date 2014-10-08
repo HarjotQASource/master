@@ -3,6 +3,7 @@ package com.clone;
 class Student implements Cloneable {
 	// Contained object
 	private Subject subj;
+	// New parameter
 	private String age;
 
 	public String getAge() {
