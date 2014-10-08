@@ -4,22 +4,22 @@ class Student implements Cloneable {
 	// Contained object
 	private Subject subj;
 
-	private String name;
+	private String nameNew;
 
 	public Subject getSubj() {
 		return subj;
 	}
 
 	public String getName() {
-		return name;
+		return nameNew;
 	}
 
 	public void setName(String s) {
-		name = s;
+		nameNew = s;
 	}
 
 	public Student(String s, String sub) {
-		name = s;
+		nameNew = s;
 		subj = new Subject(sub);
 	}
 
