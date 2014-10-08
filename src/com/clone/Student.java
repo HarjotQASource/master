@@ -3,6 +3,15 @@ package com.clone;
 class Student implements Cloneable {
 	// Contained object
 	private Subject subj;
+	private String age;
+
+	public String getAge() {
+		return age;
+	}
+
+	public void setAge(String age) {
+		this.age = age;
+	}
 
 	private String nameNew;
 
