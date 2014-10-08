@@ -1,5 +1,9 @@
 package com.clone;
-
+/**
+ * 
+ * @author hasingh
+ *
+ */
 public class Subject {
 
 	private String name;
